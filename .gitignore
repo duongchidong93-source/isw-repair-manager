@@ -1,0 +1,17 @@
+# Database SQLite — tự động được tạo lại từ CSV khi chạy lần đầu, không cần commit
+isw_repair.db
+isw_repair.db-wal
+isw_repair.db-shm
+
+# File PDF/Video do kỹ sư tải lên qua tab Thư Viện SOP & Video
+# (giữ lại thư mục assets/ nhưng không commit nội dung file bên trong)
+assets/*
+!assets/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Môi trường ảo (nếu có)
+.venv/
+venv/
